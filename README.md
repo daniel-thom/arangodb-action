@@ -14,6 +14,10 @@ steps:
     arangodb version: 'latest'  # See https://hub.docker.com/_/arangodb for available versions
 ```
 
+The action starts a Docker container with the name `arangodb_container`, which can be customized
+with the parameter `container_name`. This is useful if you need to connect to the database with
+ArangoDB tools.
+
 # License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
